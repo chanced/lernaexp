@@ -1,0 +1,23 @@
+{
+  "name": "@project/api",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "chanced",
+  "license": "ISC",
+  "main": "lib/api.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@project/core": "0.0.1",
+    "koa": "^2.11.0"
+  }
+}
